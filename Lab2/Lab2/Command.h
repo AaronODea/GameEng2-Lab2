@@ -62,6 +62,9 @@ class Tbutton : public Command
 {
 }
 
+class Ybutton : public Command
+{
+}
 
 
 //
