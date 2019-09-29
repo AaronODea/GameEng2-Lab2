@@ -37,7 +37,30 @@ protected:
 };
 
 
+class backspacebutton : public Command
+{
+}
+class TAbbutton : public Command
+{
+}
+class Qbutton : public Command
+{
+}
+class Wbutton : public Command
+{
+}
 
+class Ebutton : public Command
+{
+}
+
+class Rbutton : public Command
+{
+}
+
+class Tbutton : public Command
+{
+}
 
 
 
