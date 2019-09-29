@@ -15,14 +15,14 @@ public:
 	sf::String getString() { return m_word; };
 	//void execute() { std::cout << "boiii" << std::endl; };
 private:
-	Command* buttonBackSpace_;
-	Command* buttonTab_;
+	Command* buttonBackSpace_ = new backspacebutton();
+	Command* buttonTab_ = new TAbbutton();
 
-	Command* buttonQ_;
-	Command* buttonW_;
-	Command* buttonE_;
-	Command* buttonR_;
-	Command* buttonT_;
-	Command* buttonY_;
+	Command* buttonQ_ = new Qbutton() ;
+	Command* buttonW_= new Wbutton();
+	Command* buttonE_= new Ebutton() ;
+	Command* buttonR_= new Rbutton();
+	Command* buttonT_= new Tbutton() ;
+	Command* buttonY_= new Tbutton() ;
 
 };
